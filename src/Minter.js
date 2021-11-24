@@ -72,7 +72,7 @@ const Minter = (props) => {
       </button>
 
       <br></br>
-      <h1 id="title">🧙‍♂️ Alchemy NFT Minter</h1>
+      <h1 id="title">🧙‍♂️ NFT Minter</h1>
       <p>
         Simply add your asset's link, name, and description, then press "Mint."
       </p>
@@ -92,7 +92,7 @@ const Minter = (props) => {
         <h2>✍️ Description: </h2>
         <input
           type="text"
-          placeholder="e.g. Even cooler than cryptokitties ;)"
+          placeholder="e.g. Even cooler than cryptokitties."
           onChange={(event) => setDescription(event.target.value)}
         />
       </form>
